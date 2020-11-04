@@ -16,7 +16,7 @@ int main()
   printf("Sudoku: \n\nVersche dieses Sudoku zu loesen du kannst in die leeren\n"); // Einleitung 
   printf("felder die als 0 gekenzeichnet sind eine zahl eingeben\n\n");
   printf("Deine Eingegebene Zahl wird sofort ueberprueft\n\n");
-  int i,j;
+  int i,j;            // Wird für die Array verwendet
   int raster[9][9] = {                          //Das 9 mal 9 Sudoku Rätsel(tow dimensional Array)
     {0,0,0,8,0,0,9,2,7},
     {0,0,0,0,0,0,0,0,0},
@@ -62,7 +62,7 @@ int main()
     goto Anfang;
   }
   Anfang1:
-  printf("Gibt die zweite Zahl ein: ");
+  printf("Gibt die zweite Zahl ein: "); // Wiederholung der for schleife
   scanf("%d",&num);
   raster[0][1]=num;
   if(num==5)
