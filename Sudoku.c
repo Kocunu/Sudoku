@@ -13,11 +13,11 @@ Klasse: 3BHET
 
 int main()
 {
-  printf("Sudoku: \n\nVersche dieses Sudoku zu loesen du kannst in die leeren\n");
+  printf("Sudoku: \n\nVersche dieses Sudoku zu loesen du kannst in die leeren\n"); // Einleitung 
   printf("felder die als 0 gekenzeichnet sind eine zahl eingeben\n\n");
   printf("Deine Eingegebene Zahl wird sofort ueberprueft\n\n");
   int i,j;
-  int raster[9][9] = {
+  int raster[9][9] = {                          //Das 9 mal 9 Sudoku Rätsel(tow dimensional Array)
     {0,0,0,8,0,0,9,2,7},
     {0,0,0,0,0,0,0,0,0},
     {0,0,2,0,0,9,0,0,0},
@@ -28,7 +28,7 @@ int main()
     {9,0,5,3,0,0,0,6,0},
     {0,0,1,0,2,0,4,3,0}
   };
-  for(i=0;i<9;i++)
+  for(i=0;i<9;i++) // for schleife für das ausgeben der vorgegebenen Array
   {
     for(j=0;j<9;j++)
     {
@@ -39,7 +39,7 @@ int main()
     }
   }
   Anfang:
-  printf("Gibt die erste Zahl ein: ");
+  printf("Gibt die erste Zahl ein: "); // Hier wird überprüft ob die Eingegeben Zahl richtig ist.
   int num;
   scanf("%d",&num);
   raster[0][0]=num;
@@ -590,7 +590,7 @@ int main()
     goto Anfang24;
   }
   Anfang25:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 29. Zahl ein: ");
   scanf("%d",&num);
   raster[4][0]=num;
   if(num==3)
@@ -612,7 +612,7 @@ int main()
     goto Anfang25;
   }
   Anfang26:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 30. Zahl ein: ");
   scanf("%d",&num);
   raster[4][1]=num;
   if(num==2)
@@ -634,7 +634,7 @@ int main()
     goto Anfang26;
   }
   Anfang27:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 31. Zahl ein: ");
   scanf("%d",&num);
   raster[4][4]=num;
   if(num==9)
@@ -656,7 +656,7 @@ int main()
     goto Anfang27;
   }
   Anfang28:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 32. Zahl ein: ");
   scanf("%d",&num);
   raster[4][5]=num;
   if(num==8)
@@ -678,7 +678,7 @@ int main()
     goto Anfang28;
   }
   Anfang29:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 33. Zahl ein: ");
   scanf("%d",&num);
   raster[4][7]=num;
   if(num==7)
@@ -700,7 +700,7 @@ int main()
     goto Anfang29;
   }
   Anfang30:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 34. Zahl ein: ");
   scanf("%d",&num);
   raster[4][8]=num;
   if(num==5)
@@ -722,7 +722,7 @@ int main()
     goto Anfang30;
   }
   Anfang31:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 35. Zahl ein: ");
   scanf("%d",&num);
   raster[5][0]=num;
   if(num==5)
@@ -744,7 +744,7 @@ int main()
     goto Anfang31;
   }
   Anfang32:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 36. Zahl ein: ");
   scanf("%d",&num);
   raster[5][1]=num;
   if(num==6)
@@ -766,7 +766,7 @@ int main()
     goto Anfang32;
   }
   Anfang33:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 37. Zahl ein: ");
   scanf("%d",&num);
   raster[5][2]=num;
   if(num==9)
@@ -788,7 +788,7 @@ int main()
     goto Anfang33;
   }
   Anfang34:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 38. Zahl ein: ");
   scanf("%d",&num);
   raster[5][6]=num;
   if(num==2)
@@ -810,7 +810,7 @@ int main()
     goto Anfang34;
   }
   Anfang35:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 39. Zahl ein: ");
   scanf("%d",&num);
   raster[5][7]=num;
   if(num==8)
@@ -832,7 +832,7 @@ int main()
     goto Anfang35;
   }
   Anfang55:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 40. Zahl ein: ");
   scanf("%d",&num);
   raster[5][8]=num;
   if(num==3)
@@ -854,7 +854,7 @@ int main()
     goto Anfang55;
   }
   Anfang36:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 41. Zahl ein: ");
   scanf("%d",&num);
   raster[6][0]=num;
   if(num==2)
@@ -876,7 +876,7 @@ int main()
     goto Anfang36;
   }
   Anfang37:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 42. Zahl ein: ");
   scanf("%d",&num);
   raster[6][2]=num;
   if(num==3)
@@ -898,7 +898,7 @@ int main()
     goto Anfang37;
   }
   Anfang38:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 43. Zahl ein: ");
   scanf("%d",&num);
   raster[6][4]=num;
   if(num==6)
@@ -920,7 +920,7 @@ int main()
     goto Anfang38;
   }
   Anfang39:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 44. Zahl ein: ");
   scanf("%d",&num);
   raster[6][6]=num;
   if(num==5)
@@ -942,7 +942,7 @@ int main()
     goto Anfang39;
   }
   Anfang40:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 45. Zahl ein: ");
   scanf("%d",&num);
   raster[6][7]=num;
   if(num==9)
@@ -964,7 +964,7 @@ int main()
     goto Anfang40;
   }
   Anfang42:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 46. Zahl ein: ");
   scanf("%d",&num);
   raster[6][8]=num;
   if(num==1)
@@ -986,7 +986,7 @@ int main()
     goto Anfang42;
   }
   Anfang44:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 47. Zahl ein: ");
   scanf("%d",&num);
   raster[7][1]=num;
   if(num==4)
@@ -1008,7 +1008,7 @@ int main()
     goto Anfang44;
   }
   Anfang45:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 48. Zahl ein: ");
   scanf("%d",&num);
   raster[7][4]=num;
   if(num==8)
@@ -1030,7 +1030,7 @@ int main()
     goto Anfang45;
   }
   Anfang46:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 49. Zahl ein: ");
   scanf("%d",&num);
   raster[7][5]=num;
   if(num==1)
@@ -1052,7 +1052,7 @@ int main()
     goto Anfang46;
   }
   Anfang47:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 50. Zahl ein: ");
   scanf("%d",&num);
   raster[7][6]=num;
   if(num==7)
@@ -1074,7 +1074,7 @@ int main()
     goto Anfang47;
   }
   Anfang48:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 51. Zahl ein: ");
   scanf("%d",&num);
   raster[7][8]=num;
   if(num==2)
@@ -1096,7 +1096,7 @@ int main()
     goto Anfang48;
   }
   Anfang49:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 52. Zahl ein: ");
   scanf("%d",&num);
   raster[8][0]=num;
   if(num==6)
@@ -1118,7 +1118,7 @@ int main()
     goto Anfang49;
   }
   Anfang50:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 53. Zahl ein: ");
   scanf("%d",&num);
   raster[8][1]=num;
   if(num==7)
@@ -1140,7 +1140,7 @@ int main()
     goto Anfang50;
   }
   Anfang51:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 54. Zahl ein: ");
   scanf("%d",&num);
   raster[8][3]=num;
   if(num==9)
@@ -1162,7 +1162,7 @@ int main()
     goto Anfang51;
   }
   Anfang52:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 55. Zahl ein: ");
   scanf("%d",&num);
   raster[8][5]=num;
   if(num==5)
@@ -1184,7 +1184,7 @@ int main()
     goto Anfang52;
   }
   Anfang53:
-  printf("Gibt die 28. Zahl ein: ");
+  printf("Gibt die 56. Zahl ein: ");
   scanf("%d",&num);
   raster[8][8]=num;
   if(num==8)
